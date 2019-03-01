@@ -32,7 +32,7 @@ const Button = ({ handleConfirm }) => (
           height: 40,
         }}
       >
-        {'Confirm Order!'}
+        {'Confirm Order!!'}
       </Text>
     </TouchableHighlight>
   </View>
