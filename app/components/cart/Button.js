@@ -1,7 +1,7 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
 import { View, TouchableHighlight, Text } from 'react-native';
-
+import PropTypes from 'prop-types';
 // confiming purchase button
 const Button = ({ handleConfirm }) => (
   <View
@@ -37,4 +37,7 @@ const Button = ({ handleConfirm }) => (
     </TouchableHighlight>
   </View>
 );
+Button.propTypes = {
+  handleConfirm: PropTypes.func,
+};
 export default Button;
